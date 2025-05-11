@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta viewport="width=device-width, initial-scale=1.0" />
+
+    <title>jesse Webpage</title>
+  </head>
+  <body>
+    <h1>Welcome to My Feature-Rich Webpage</h1>
+
+    <!-- 1. Multimedia: Audio and Video -->
+    <section>
+      <h2>Multimedia Section</h2>
+
+      <h3>Audio</h3>
+      <audio controls>
+        <source src="https://youtu.be/WQFDWM-6ytA.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>Video</h3>
+      <video width="320" height="240" controls>
+        <source src="https://youtu.be/WQFDWM-6ytA.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- 2. Registration Form with Validation -->
+    <section>
+      <h2>Registration Form</h2>
+      <form action="/submit" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          minlength="6"
+        /><br /><br />
+
+        <input type="submit" value="Register" />
+      </form>
+    </section>
+
+    <!-- 3. Embedded Image -->
+    <section>
+      <h2>Image Section</h2>
+      <img src="image.jpg" alt="A descriptive image" width="400" height="300" />
+    </section>
+
+    <section>
+      <h2>Table Section</h2>
+      <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Alice</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>30</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>List Section</h2>
+
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Oranges</li>
+      </ul>
+
+      <h3>Ordered List</h3>
+      <ol>
+        <li>Step One</li>
+        <li>Step Two</li>
+        <li>Step Three</li>
+      </ol>
+    </section>
+  </body>
+</html>
